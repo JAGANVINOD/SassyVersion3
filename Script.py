@@ -6,7 +6,7 @@ class script(object):
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
 
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Unni0240>𝙰𝚖𝚊𝚕 𝙽𝚊𝚝𝚑</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/n_i_8_m_a_r_e>Jagan</a>
 ✯ 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾: <a href=https://t.me/creatorbeatz>Jᴏᴇʟ ᠰ TɢX</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙴𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
@@ -173,7 +173,7 @@ To Get Sticker ID
 <b>COMMAND</b> : /font your text (optional)
         <b> Eg:- /font Hello</b>
 
- <i>This feature added by @Unni0240"""
+ <i>This feature added by @n_i_8_m_a_r_e"""
     JSON_TXT = """<b>JSON:</b>
 Bot returns json for all replied messages with /json or /js
 <b>Features:</b>
