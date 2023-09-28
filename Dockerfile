@@ -8,7 +8,7 @@ COPY requirements.txt /Sassyv3/
 # Run the pip install command to install the Python dependencies
 RUN pip install -r requirements.txt
 
-RUN pip install --upgrade pip
+RUN python -m pip install pymongo
 
 COPY ..
 
