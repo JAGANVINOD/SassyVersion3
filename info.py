@@ -59,7 +59,7 @@ MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph//file/eafdc365feaf11d2
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '827908943').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001958970727').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -85,13 +85,13 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 # Others
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "10"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/sassyv3")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/moveandroll")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+lAar2UCs_4c0MzVl")
+S_GROUP = environ.get('S_GROUP',"https://t.me/+W66ZuDZXY4szYTll")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+W66ZuDZXY4szYTll")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+W66ZuDZXY4szYTlll")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001958970727'))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1788341105'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/sassyv3')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001912744161'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+W66ZuDZXY4szYTll')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
