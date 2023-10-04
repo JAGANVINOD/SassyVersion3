@@ -442,7 +442,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             elif settings['botpm']:
                 await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await query.answer('𝘾𝙝𝙚𝙘𝙠 𝙋𝙈, 𝙄 𝙝𝙖𝙫𝙚 𝙨𝙚𝙣𝙩 𝙛𝙞𝙡𝙚𝙨 𝙞𝙣 𝙥𝙢\n@ᴄᴄᴏᴍ_ᴛᴇᴀᴍ', show_alert=True)
+                await query.answer('𝘾𝙝𝙚𝙘𝙠 𝙋𝙈, 𝙄 𝙝𝙖𝙫𝙚 𝙨𝙚𝙣𝙩 𝙛𝙞𝙡𝙚𝙨 𝙞𝙣 𝙥𝙢\moveandroll_ᴛᴇᴀᴍ', show_alert=True)
                 return
             else:
                 file_send=await client.send_cached_media(
@@ -483,7 +483,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("𝑰 𝑳𝒊𝒌𝒆 𝒀𝒐𝒖𝒓 𝑺𝒎𝒂𝒓𝒕𝒏𝒆𝒔𝒔, 𝑩𝒖𝒕 𝑫𝒐𝒏'𝒕 𝑩𝒆 𝑶𝒗𝒆𝒓𝒔𝒎𝒂𝒓𝒕 😒\n@ᴄᴄᴏᴍ_ᴛᴇᴀᴍ", show_alert=True)
+            await query.answer("𝑰 𝑳𝒊𝒌𝒆 𝒀𝒐𝒖𝒓 𝑺𝒎𝒂𝒓𝒕𝒏𝒆𝒔𝒔, 𝑩𝒖𝒕 𝑫𝒐𝒏'𝒕 𝑩𝒆 𝑶𝒗𝒆𝒓𝒔𝒎𝒂𝒓𝒕 😒\moveandroll_ᴛᴇᴀᴍ", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -541,7 +541,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/amal_nath_05')
+            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/n_i_8_m_a_r_e')
         ], [
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -806,7 +806,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "deploy":
         buttons = [[
            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/kyojuro6engoku/sakura'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Unni0240')
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/n_i_8_m_a_r_e')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='aswin')
         ]]
