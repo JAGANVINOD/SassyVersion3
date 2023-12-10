@@ -19,6 +19,7 @@ gTTS
 googletrans==3.1.0a0
 telegraph
 PyPDF2
+psutil
 ujson
 pyshorteners
 countryinfo
