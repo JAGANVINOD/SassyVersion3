@@ -21,6 +21,8 @@ telegraph
 PyPDF2
 psutil
 ujson
+pytube
+youtube_search
 pyshorteners
 countryinfo
 datetime
